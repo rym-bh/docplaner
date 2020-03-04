@@ -1,0 +1,333 @@
+/* section1 */
+.logo-docplanner{
+    width:268px;
+    height:33px;
+}
+.navbar{
+    height: 90px;
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+   
+    
+}
+
+.content1 a{
+    color:#00ccb1 ;
+}
+.content{
+    display: flex;
+    margin: 0px;
+    list-style: none;
+    width:300px;
+
+   
+
+   
+   justify-content: space-around;
+    
+    padding-left: 800px;
+   padding-top: 0px;
+    
+    
+    
+}
+a{
+    text-decoration: none;
+    color:#aeaeae ;
+}
+.down{
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: whitesmoke;
+    
+
+}
+.content3:hover .down{
+    display: block;
+
+}
+.content3{
+    position: relative;
+}
+.logo-docplanner{
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+
+
+/* section 2 */
+ .introduction{
+    text-align: center;
+}
+.paragraphes{
+    
+    display: flex;
+    justify-content: space-between;
+   
+    text-align: center;
+    margin: 150px;
+    margin-top: 10px;
+
+}
+.paralogo{
+    color: #00ccb1;
+}
+.logoImg{
+    padding-top: 100px;
+}
+.para{
+    display: flex;
+    display: block;
+}
+h6{
+    color:white;
+    margin:50px;
+}
+h2{
+    color: white;
+    margin: 30px;
+}
+
+
+    
+h1{
+    color: teal;
+}
+ /* section 3 */
+ .card{
+     
+     width:500px;
+     height: 400px;
+    
+ }
+  
+ .card-image{
+     width:400px;
+       
+ }
+ .cards2{
+margin: 100px;
+
+ }
+ #x{
+     background-color:#00ccb1 ;
+background-image: url("https://www.docplanner.com/img/screen-marketplace@2x.png");
+
+background-size: 350px;
+background-repeat: no-repeat;
+background-position: 250px 190px;
+border-radius: 10px;
+
+
+}
+ #y{
+     background-color:#3d83df ;
+background-image: url("https://www.docplanner.com/img/screen-saas@2x.png");
+background-size: 350px;
+background-repeat: no-repeat;
+background-position: 250px 190px;
+border-radius: 10px;
+
+
+
+}
+.select{
+    width: 175px;
+    height:40px;
+   
+    margin-left:30px;
+    border-radius: 10px;
+}
+.cards2{
+    display: flex;
+    justify-content: space-around;
+}
+/* section4 */
+.global{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    
+}
+.global svg{
+    fill: hsla(0,0%,67%,.7);
+        width: 145px;
+        margin-left: 20px;
+        height: 29px;
+}
+.global p{
+    font-size: 28px;
+        color:#33b39b;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+        width: 250px;
+        
+        margin-left: 80px;
+}
+.marg{
+    width:800px;
+
+
+}
+/* section5 */
+
+.Biglogo{
+    background-image: url("https://www.docplanner.com/img/logo.png");
+    background-position: 30px 300px;
+    background-repeat: no-repeat;
+    height: 600px;
+    width:100%;
+    border:2px solid ;
+     display: flex;
+    background-color: #e1f9f7;
+
+}
+.c1{
+    
+     width:40%;
+    color:grey;
+    
+    padding-left: 120px;
+    
+    
+}
+.c1 h4{
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 50px;
+    color:#00b39b;
+    width: 255px;
+}
+.statcard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+ 
+   
+  
+    
+    
+}
+/* .c2{
+    width:40%;
+    background-color: yellow;
+    
+} */
+.statistique{
+ 
+    display: flex;
+    flex-direction: column;
+align-items: center;
+    width:200px;
+    height: 200px;
+    margin:15px;
+    padding:20px;
+    background-color: white;
+
+
+
+}
+.card-title{
+    color: #00b39b;
+    
+}
+.statistiqueDeux{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:200px;
+    height: 200px;
+    margin:15px;
+    padding:20px;
+    background-color: white;
+    margin-top:50px
+}
+.statistique p{
+color:grey;
+}
+.statistiqueDeux p{
+    color:grey;
+}
+/* section6 */
+.improve{
+
+    height: 300px;
+    
+    width: 450px;
+    
+    display: block;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    text-align: center ;
+    margin-top: 90px;
+    
+    }
+
+    .titre1{
+        color: #747474;
+        margin-top: 30px;
+     }
+     .titre{
+        color:#00b39b;
+        font-size:30px;
+        font-weight: 200;
+
+    }
+    .btn{
+        background-color:#3d83df ;
+        width:110px ;
+        height:30px ;
+    }
+    .country{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 1015px;
+        padding-left: 180px;
+        
+
+    }
+    .countryImg{
+        background-color: white;
+    
+    
+    
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    }
+    .countryImg:hover{
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+    }
+    .image1{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .image1 h3{
+        color:#747474;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    
+        
+    /* section7 */
+    footer{
+        margin-top: 40px;
+        border-top:#eef2f2;
+        font-size: 16px;
+         color: #ababab;
+         text-align: center;
+         line-height: 2.5;
+        }
+        footer a {
+          color: #3d83df;
+        }
+
+
+
